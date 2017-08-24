@@ -1,0 +1,22 @@
+{
+  "name": "SJStartUpView",
+  "version": "0.1.0",
+  "summary": "A short description of SJStartUpView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/SoulJaZhao/SJStartUpView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "SoulJaZhao": "zhaolong01@shengpay.com"
+  },
+  "source": {
+    "git": "https://github.com/SoulJaZhao/SJStartUpView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SJStartUpView/Classes/**/*"
+}

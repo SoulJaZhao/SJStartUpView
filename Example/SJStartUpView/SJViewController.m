@@ -7,8 +7,9 @@
 //
 
 #import "SJViewController.h"
+#import <SJStartUpView/SJStartUpView.h>
 
-@interface SJViewController ()
+@interface SJViewController () <SJStartUpViewDelegate>
 
 @end
 
@@ -17,7 +18,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    SJStartUpView *startUpView = [[SJStartUpView alloc] initWithImage:[UIImage imageNamed:@"vans"] countTime:10];
+    startUpView.frame = self.view.bounds;
+    startUpView.delegate = self;
+    [self.view addSubview:startUpView];
+}
+
+#pragma mark - SJStartUpViewDelegate
+- (void)dismissStartUpView:(SJStartUpView *)startUpView {
+    NSLog(@"结束");
 }
 
 - (void)didReceiveMemoryWarning

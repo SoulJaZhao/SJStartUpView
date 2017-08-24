@@ -1,0 +1,16 @@
+PODS:
+  - SJStartUpView (0.1.0)
+
+DEPENDENCIES:
+  - SJStartUpView (from `../`)
+
+EXTERNAL SOURCES:
+  SJStartUpView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SJStartUpView: a65cea2bd920962c0b16308ec2bfd918ee3234fa
+
+PODFILE CHECKSUM: 3e9cc30591b7eb6e674be14c573385f0bd4d4e35
+
+COCOAPODS: 1.2.1
