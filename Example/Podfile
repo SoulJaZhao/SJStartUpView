@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SJStartUpView_Example' do
+  pod 'SJStartUpView', :path => '../'
+
+  target 'SJStartUpView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
